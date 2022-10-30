@@ -9,15 +9,22 @@ public class Questao5 {
         Scanner leitura = new Scanner(System.in);
 
         System.out.println("Digite uma palavra ou frase:");
-        String frase = leitura.next();
-        char[] array = trocaDeFrase(frase);
-        System.out.println(array);
+        String frase = leitura.nextLine();
+        System.out.println(trocaDeFrase(frase));
 
     }
 
-    public static char[] trocaDeFrase(String frase) {
+    public static String trocaDeFrase(String frase) {
 
-        int j = 0;
+        frase = frase.replaceAll(" ","");
+
+        return frase;
+
+    }
+}
+
+/*
+int j = 0;
         char[] array = new char[frase.length()];
         for (int i = 0; i < frase.length(); i++) {
             if (frase.charAt(i) != ' ') {
@@ -27,5 +34,4 @@ public class Questao5 {
         }
 
         return array;
-    }
-}
+*/
