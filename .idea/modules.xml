@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aulas.iml" filepath="$PROJECT_DIR$/Aulas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TESTE/TESTE.iml" filepath="$PROJECT_DIR$/TESTE/TESTE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula1/aula1.iml" filepath="$PROJECT_DIR$/aula1/aula1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula2/aula2.iml" filepath="$PROJECT_DIR$/aula2/aula2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula3/aula3.iml" filepath="$PROJECT_DIR$/aula3/aula3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula4/aula4.iml" filepath="$PROJECT_DIR$/aula4/aula4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula5/aula5.iml" filepath="$PROJECT_DIR$/aula5/aula5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula6/aula6.iml" filepath="$PROJECT_DIR$/aula6/aula6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula7/aula7.iml" filepath="$PROJECT_DIR$/aula7/aula7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowd/beecrowd.iml" filepath="$PROJECT_DIR$/beecrowd/beecrowd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowd2/beecrowd2.iml" filepath="$PROJECT_DIR$/beecrowd2/beecrowd2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplos/exemplos.iml" filepath="$PROJECT_DIR$/exemplos/exemplos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios/exercicios.iml" filepath="$PROJECT_DIR$/exercicios/exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios2/exercicios2.iml" filepath="$PROJECT_DIR$/exercicios2/exercicios2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exerciciosmaterianova/exerciciosmaterianova.iml" filepath="$PROJECT_DIR$/exerciciosmaterianova/exerciciosmaterianova.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materianova1/materianova1.iml" filepath="$PROJECT_DIR$/materianova1/materianova1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materianova2/materianova2.iml" filepath="$PROJECT_DIR$/materianova2/materianova2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provaexemplo/provaexemplo.iml" filepath="$PROJECT_DIR$/provaexemplo/provaexemplo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provaexemplo2/provaexemplo2.iml" filepath="$PROJECT_DIR$/provaexemplo2/provaexemplo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provaexemplo3/provaexemplo3.iml" filepath="$PROJECT_DIR$/provaexemplo3/provaexemplo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provaoficial/provaoficial.iml" filepath="$PROJECT_DIR$/provaoficial/provaoficial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provaoficial2/provaoficial2.iml" filepath="$PROJECT_DIR$/provaoficial2/provaoficial2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trabalho/trabalho.iml" filepath="$PROJECT_DIR$/trabalho/trabalho.iml" />
+    </modules>
+  </component>
+</project>
