@@ -11,19 +11,30 @@ public class Questao1 {
         String nome = leitura.next();
         char[] array = inversao(nome);
         System.out.println(array);
+        System.out.println(inversao2(nome));
     }
 
     public static char[] inversao (String nome) {
 
-        int tamanho = nome.length();
-        int j = tamanho - 1;
-        char[] array = new char[tamanho];
-        for (int i = 0; i < tamanho; i++) {
+        int j = nome.length() - 1;
+        char[] array = new char[nome.length()];
+        for (int i = 0; i < nome.length(); i++) {
             char aux = nome.charAt(i);
             array[j] = aux;
             j--;
         }
 
         return array;
+    }
+
+    // OU
+
+    public static String inversao2 (String nome) {
+
+        String newWord = "";
+        for (int i = nome.length() - 1; i >= 0; i--) {
+         newWord += nome.charAt(i);
+        }
+        return newWord;
     }
 }

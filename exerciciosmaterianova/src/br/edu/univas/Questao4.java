@@ -16,7 +16,14 @@ public class Questao4 {
 
     }
 
+
     public static int comparacao(int primeiro, int segundo) {
+
+        return Math.max(primeiro, segundo);
+
+        /* Math.min pega o menor número
+
+        OU
 
         int maior;
         if (primeiro > segundo) {
@@ -27,5 +34,7 @@ public class Questao4 {
             maior = primeiro;
         }
         return(maior);
+        */
+
     }
 }

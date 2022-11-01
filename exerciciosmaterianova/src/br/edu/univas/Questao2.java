@@ -5,21 +5,19 @@ import java.util.Scanner;
 public class Questao2 {
 
     public static void main(String[] args) {
-
-        Scanner leitura = new Scanner(System.in);
-
-        System.out.println("digite o ano do seu nascimento:");
-        int ano = leitura.nextInt();
-        int idade = idade(ano);
-        System.out.println("Você tem " + idade + " anos");
-
+        int birthdayYear = readBirthdayYear();
+        int age = calcAge(birthdayYear);
+        System.out.println("A idade é: " + age);
     }
 
-    public static int idade(int ano) {
+    public static int readBirthdayYear() {
+        Scanner scanner = new Scanner(System.in);
 
-        int anoAtual = 2022;
-        ano = anoAtual - ano;
+        System.out.println("digite o ano do seu nascimento:");
+        return scanner.nextInt();
+    }
 
-        return ano;
+    public static int calcAge(int birthdayYear) {
+        return 2022 - birthdayYear;
     }
 }
